@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <SplitPane dividerPositions="0.6700507614213198" layoutX="10.0" layoutY="11.0" prefHeight="601.0" prefWidth="593.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="599.0" prefWidth="349.0">
+               <children>
+                  <Label fx:id="lbl_Januar" layoutX="72.0" layoutY="131.0" prefHeight="17.0" prefWidth="89.0" text="Januar" />
+                  <Label fx:id="lbl_Februar" layoutX="72.0" layoutY="165.0" prefHeight="17.0" prefWidth="89.0" text="Februar" />
+                  <Label fx:id="lbl_Maerz" layoutX="72.0" layoutY="199.0" prefHeight="17.0" prefWidth="89.0" text="Maerz" />
+                  <Label fx:id="lbl_Juni" layoutX="72.0" layoutY="306.0" prefHeight="17.0" prefWidth="89.0" text="Juni" />
+                  <Label fx:id="lbl_Mai" layoutX="72.0" layoutY="271.0" prefHeight="17.0" prefWidth="89.0" text="Mai" />
+                  <Label fx:id="lbl_April" layoutX="72.0" layoutY="235.0" prefHeight="17.0" prefWidth="89.0" text="April" />
+                  <Label fx:id="lbl_Juli" layoutX="72.0" layoutY="339.0" prefHeight="17.0" prefWidth="89.0" text="Juli" />
+                  <Label fx:id="lbl_August" layoutX="72.0" layoutY="373.0" prefHeight="17.0" prefWidth="89.0" text="August" />
+                  <Label fx:id="lbl_September" layoutX="72.0" layoutY="404.0" prefHeight="17.0" prefWidth="89.0" text="September" />
+                  <Label fx:id="lbl_Dezember" layoutX="72.0" layoutY="504.0" prefHeight="17.0" prefWidth="89.0" text="Dezember" />
+                  <Label fx:id="lbl_November" layoutX="72.0" layoutY="471.0" prefHeight="17.0" prefWidth="89.0" text="November" />
+                  <Label fx:id="lbl_Oktober" layoutX="72.0" layoutY="437.0" prefHeight="17.0" prefWidth="89.0" text="Oktober" />
+                  <Button fx:id="btn_Januar" layoutX="161.0" layoutY="124.0" mnemonicParsing="false" onAction="#Erstellen_Januar" text="Erstellen" />
+                  <Button fx:id="btn_Februar" layoutX="161.0" layoutY="158.0" mnemonicParsing="false" onAction="#Erstellen_Februar" text="Erstellen" />
+                  <Button fx:id="btn_Maerz" layoutX="161.0" layoutY="192.0" mnemonicParsing="false" onAction="#Erstellen_Maerz" text="Erstellen" />
+                  <Button fx:id="btn_April" layoutX="161.0" layoutY="228.0" mnemonicParsing="false" onAction="#Erstellen_April" text="Erstellen" />
+                  <Button fx:id="btn_Mai" layoutX="161.0" layoutY="264.0" mnemonicParsing="false" onAction="#Erstellen_Mai" text="Erstellen" />
+                  <Button fx:id="btn_Juni" layoutX="161.0" layoutY="299.0" mnemonicParsing="false" onAction="#Erstellen_Juni" text="Erstellen" />
+                  <Button fx:id="btn_Juli" layoutX="161.0" layoutY="332.0" mnemonicParsing="false" onAction="#Erstellen_Juli" text="Erstellen" />
+                  <Button fx:id="btn_August" layoutX="161.0" layoutY="366.0" mnemonicParsing="false" onAction="#Erstellen_August" text="Erstellen" />
+                  <Button fx:id="btn_September" layoutX="161.0" layoutY="397.0" mnemonicParsing="false" onAction="#Erstellen_September" text="Erstellen" />
+                  <Button fx:id="btn_Oktober" layoutX="161.0" layoutY="430.0" mnemonicParsing="false" onAction="#Erstellen_Oktober" text="Erstellen" />
+                  <Button fx:id="btn_November" layoutX="161.0" layoutY="464.0" mnemonicParsing="false" onAction="#Erstellen_November" text="Erstellen" />
+                  <Button fx:id="btn_Dezember" layoutX="161.0" layoutY="497.0" mnemonicParsing="false" onAction="#Erstellen_Dezember" text="Erstellen" />
+                  <CheckBox fx:id="chk_Januar" disable="true" layoutX="245.0" layoutY="131.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Februar" disable="true" layoutX="245.0" layoutY="165.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Maerz" disable="true" layoutX="245.0" layoutY="199.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_April" disable="true" layoutX="245.0" layoutY="235.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Mai" disable="true" layoutX="245.0" layoutY="271.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Juni" disable="true" layoutX="245.0" layoutY="306.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Juli" disable="true" layoutX="245.0" layoutY="339.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_August" disable="true" layoutX="245.0" layoutY="373.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_September" disable="true" layoutX="245.0" layoutY="404.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Oktober" disable="true" layoutX="245.0" layoutY="437.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_November" disable="true" layoutX="245.0" layoutY="471.0" mnemonicParsing="false" text="Bereit" />
+                  <CheckBox fx:id="chk_Dezember" disable="true" layoutX="245.0" layoutY="504.0" mnemonicParsing="false" text="Bereit" />
+                  <Label layoutX="46.0" layoutY="30.0" text="Kalender Designer">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tb_Jahr" layoutX="161.0" layoutY="550.0" prefHeight="25.0" prefWidth="61.0" />
+                  <Label fx:id="lbl_Dezember1" layoutX="72.0" layoutY="554.0" prefHeight="17.0" prefWidth="89.0" text="Jahr" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="599.0" prefWidth="169.0">
+               <children>
+                  <SplitPane dividerPositions="0.4935897435897436" layoutX="18.0" layoutY="244.0" prefHeight="166.0" prefWidth="158.0" rotate="90.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="166.0" prefWidth="71.0" style="-fx-background-color: lightgrey;">
+                           <children>
+                              <Label layoutX="27.0" layoutY="75.0" rotate="-90.0" text="Bild" />
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: lightgrey;">
+                           <children>
+                              <Label layoutX="28.0" layoutY="76.0" rotate="-90.0" text="Bild" />
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+                  <Pane layoutX="14.0" layoutY="25.0" prefHeight="179.0" prefWidth="165.0" style="-fx-background-color: lightgray;">
+                     <children>
+                        <Label layoutX="69.0" layoutY="81.0" text="Bild" />
+                     </children></Pane>
+                  <CheckBox fx:id="chk_Template1" layoutX="60.0" layoutY="213.0" mnemonicParsing="false" onAction="#Template1_Checked" selected="true" text="Template 1" />
+                  <CheckBox fx:id="chk_Template2" layoutX="60.0" layoutY="414.0" mnemonicParsing="false" onAction="#Template2_Checked" text="Template 2" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+      <Button fx:id="btn_pdf" layoutX="10.0" layoutY="628.0" mnemonicParsing="false" onAction="#Create_PDF" text="PDF erstellen" />
+   </children>
+</Pane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib" sourcepath="lib"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
+	<classpathentry exported="true" kind="lib" path="lib2" sourcepath="lib2"/>
+	<classpathentry exported="true" kind="lib" path="E:/Module/226/Kalender/src/sample/itext7-io-7.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Module/226/Kalender/src/sample/itext7-itext7-root-7.0.1-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Module/226/Kalender/src/sample/itext7-itext-rups-7.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Module/226/Kalender/src/sample/itext7-pdfa-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-barcodes-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-barcodes-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-barcodes-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-font-asian-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-font-asian-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-forms-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-forms-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-forms-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-hyph-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-hyph-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-io-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-io-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-io-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-itext7-root-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-itext-rups-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-itext-rups-7.0.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-itext-rups-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-itext-rups-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-kernel-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-kernel-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-kernel-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-layout-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-layout-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-layout-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-pdfa-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-pdfa-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-pdfa-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-pdftest-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-pdftest-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-pdftest-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-sign-7.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-sign-7.0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib/itext7-sign-7.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itextpdf-5.5.10.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itextpdf-5.5.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itextpdf-5.5.10-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itext-pdfa-5.5.10.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itext-pdfa-5.5.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itext-pdfa-5.5.10-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itext-xtra-5.5.10.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itext-xtra-5.5.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/itext-xtra-5.5.10-sources.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/xmlworker-5.5.10.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/xmlworker-5.5.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/Module/226/Kalender/lib2/xmlworker-5.5.10-sources.jar"/>
+	<classpathentry kind="output" path="out/production/Kalender"/>
+</classpath>
